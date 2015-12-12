@@ -1,9 +1,6 @@
-/* Original Info */
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript */
-/**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
+/*
+ * https://github.com/mgenware/prismjs-son-of-obsidian-theme
+ * Version: 1.1
  */
 
 code[class*="language-"],
@@ -82,7 +79,8 @@ pre[class*="language-"] {
 .token.number,
 .token.regex,
 .token.important,
-.token.variable {
+.token.variable,
+.token.template-string .token.interpolation .token.interpolation-punctuation.punctuation {
     color: #FFCD22
 }
 
